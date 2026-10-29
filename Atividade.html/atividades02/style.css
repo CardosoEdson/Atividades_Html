@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+}
+table{
+    width: 100%;
+    max-width: 800px;
+    border: 10px;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+th , td{ 
+    padding: 12px 15px;
+    text-align: left;
+  border: 1px solid #dddddd;
+}
+thead th{
+    background-color: rgb(238, 242, 245);
+    color: rgb(78, 101, 151);
+    font-weight: bold;
+    border: 2px solid;
+}
+.Prioridade-urgente{
+    color: #ff0000;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    border-radius: 20px;
+    padding:  4px 20px;
+    display: inline-block;
+    text-shadow: 0px 0px 5px rgba(255, 0, 0, 0.6);
+    
+}
+.Prioridade-media{
+    color: #d48800;
+    font-weight: bold;
+    background-color: rgb(212, 136, 0, 0.15);
+    border: 1px solid rgb(212, 136, 0, 0.4);
+    border-radius: 20px;
+    padding: 3px 30px;
+    display: inline-block;
+    text-shadow:  0px 0px 5px rgba(212, 136, 0, 0.4); 
+}
+.Prioridade-concluido{
+    color: #0f766e;
+    font-weight: bold;  
+    background-color: rgba(15, 118, 110, 0.15);
+    border: 1px solid rgba(15, 118, 110, 0.4);
+    border-radius: 20px;
+    padding: 4px 18px;
+    display: inline-block;
+    text-shadow: 0px 0px 5px rgba(15, 118, 110, 0.4);
+}
