@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+table{
+    width: 100%;
+    max-width: 1400px;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+th, td{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+thead tr{
+    background-color:rgb(37, 36, 36);
+    color: white;
+}
+.linha1{
+    background-color: #0c0c0c;
+    color: white;
+}
+.linha2{
+    background-color: rgb(37, 36, 36);
+   color: white;
+}
+.status-ativo{
+    color: rgb(6, 212, 6);
+    font-weight: bold;
+}
+    
