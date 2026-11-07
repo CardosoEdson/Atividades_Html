@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:black
+    font-size: 16px;
+}
+table{
+    width: 100%;
+    max-width: 100%;
+    border: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+th, td{
+    padding: 18px 24px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    text-align: left;
+}
+th{
+    color: #000000;
+    background-color: #d2d2f191;
+}
+tbody tr:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.variação{
+    color:rgba(26, 204, 65, 0.911);
+    font-weight: bold;
+}
+.variação2{
+    color:red;
+    font-weight: bold;
+}
